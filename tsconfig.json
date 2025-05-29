@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "paths": {
+      "@/*": ["src/*"],
+    },
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "types": ["unplugin-vue-define-options/macros-global"],
+    // "plugins": [
+    //   "@vue-macros/volar/define-options"
+    // ]
+  },
+  "include": ["src/**/*", "src/**/*.vue", "auto-imports.d.ts"],
+  "exclude": ["node_modules"],
+  "trailingComma": "all",
+}
