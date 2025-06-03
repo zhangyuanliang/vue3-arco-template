@@ -63,9 +63,9 @@ enum Eaction {
 
 const props = defineProps({
   itemData: {
-    type: Array as PropType<TagProps[]>,
+    type: Object as PropType<TagProps>,
     default() {
-      return []
+      return {} as TagProps
     },
   },
   index: {

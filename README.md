@@ -36,7 +36,3 @@ pnpm run start
 ```bash
 pnpm run build
 ```
-
-- 后端服务
-
-依赖德宝云-智慧供应链应用平台
